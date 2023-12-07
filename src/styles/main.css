@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+:root{
+    /* Cores */
+    --cor0: #12486B;
+    --cor1: #419197;
+    --cor2: #78D6C6;
+    --cor3: #F5FCCD;
+    --cor4: #BDBBB0;
+    --corlinkedin: #0a66c2;
+    --corgithub: #1715156c;
+    --corinsta: radial-gradient(circle at 30% 107%, #fdf497 0%,
+    #fdf497 5%, #fd5949 45%,
+    #d6249f 60%, #285aeb 90%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    padding: 2em;
+    border: 1px solid black;
+    background-color: var(--cor0);
+}
+
+.cabecalho__nav {
+    display: flex;
+}
+
+.cabecalho__link {
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+/* Artigo */
+.artigo {
+    padding: 1em;
+}
+
+.artigo__section {
+    border: 1px solid blue;
+}
+
+.artigo__foto {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.lista-links__icones {
+    width: 10%;
+}
