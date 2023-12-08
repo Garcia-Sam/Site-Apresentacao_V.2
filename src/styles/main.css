@@ -20,28 +20,37 @@
 
 /* Cabeçalho */
 .cabecalho {
-    padding: 2em;
+    bottom: 0%;
+    width: 100%;
+    padding: 1.5em;
+    position: fixed;
     border: 1px solid black;
     background-color: var(--cor0);
 }
 
 .cabecalho__nav {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .cabecalho__link {
+    gap: .3em;
     color: #000;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 /* Artigo */
 .artigo {
     padding: 1em;
+    position: relative;
 }
 
-.artigo__section {
-    border: 1px solid blue;
+.artigo__div-foto {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: center;
 }
 
 .artigo__foto {
@@ -49,6 +58,49 @@
     border-radius: 50%;
 }
 
+.artigo__section {
+    border: 1px solid blue;
+}
+
+.artigo__section-titulo {
+    padding: 1em;
+}
+
+.artigo__section-paragrafo {
+    padding: 1em;
+}
+
+
+
+/* Section Contato */
+.contato {
+    padding: .5em;
+    margin-top: 1em;
+    border: 1px solid blueviolet;
+}
+
+.contato__titulo {
+    padding: .5em
+}
+
+.contato__lista {
+    padding: .5em;
+    display: flex;
+}
+
 .lista-links__icones {
-    width: 10%;
+    width: 35%;
+}
+
+.contato__lista-links{
+    gap: .4em;
+    display: flex;
+    align-items: center;
+}
+
+/* Rodapé */
+
+.rodape {
+    width: 100%;
+    padding: 1em;
 }
